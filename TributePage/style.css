@@ -1,0 +1,84 @@
+html {
+    font-size: 10px;
+}
+
+/* @media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
+} */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    background-color: rgba(70,80,90,0.1);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: transparent;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+    font-size: small;
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto 20px auto;
+  }
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: #000;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.education, .works, .publications, .research {
+    border: solid #fff;
+    flex-grow: 1.5;
+    background-color: rgba(255,255,255,0.1);
+    color: #000;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+p {
+    max-width: 650px;
+    line-height: 1.6;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+}
+
+li {
+    margin: 16px 0;
+}
